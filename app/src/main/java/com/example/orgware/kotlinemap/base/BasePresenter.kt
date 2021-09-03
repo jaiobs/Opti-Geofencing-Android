@@ -1,4 +1,5 @@
-package com.example.orgware.kotlinapicall.base
+package com.example.orgware.kotlinemap.base
+
 
 interface BasePresenter<in V : BaseView> {
     fun setView(view: V)

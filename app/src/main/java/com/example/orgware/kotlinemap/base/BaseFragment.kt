@@ -1,14 +1,10 @@
-package com.example.orgware.kotlinapicall.base
+package com.example.orgware.kotlinemap.base
 
 import android.app.Dialog
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
-import android.support.v4.app.ActivityCompat
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentTransaction
 import android.util.Log
 import android.view.View
 import android.view.Window
@@ -16,17 +12,14 @@ import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.TextView
+import androidx.core.app.ActivityCompat
+import androidx.fragment.app.Fragment
 import com.example.orgware.kotlinemap.R
 
 
 open class BaseFragment : Fragment() {
     private var dialog: Dialog? = null
     private val REQUEST_RUNTIME_PERMISSION = 3265
-
-
-    override fun onAttach(context: Context?) {
-        super.onAttach(context)
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

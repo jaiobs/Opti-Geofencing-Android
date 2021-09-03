@@ -1,4 +1,6 @@
-package com.example.orgware.kotlinapicall.base
+package com.example.orgware.kotlinemap.base
+
+import com.example.orgware.kotlinemap.base.BaseView
 
 /**
  * Interface representing a View that will use to load data.

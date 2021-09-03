@@ -1,4 +1,4 @@
-package com.example.orgware.kotlinapicall.app
+package com.example.orgware.kotlinemap.app
 
 object ApiUrl {
 

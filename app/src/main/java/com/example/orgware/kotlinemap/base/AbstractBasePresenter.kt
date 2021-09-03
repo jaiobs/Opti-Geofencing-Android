@@ -1,6 +1,6 @@
-package com.example.orgware.kotlinapicall.base
+package com.example.orgware.kotlinemap.base
 
-import com.example.orgware.kotlinapicall.app.AppRepo
+import com.example.orgware.kotlinemap.app.AppRepo
 
 
 open class AbstractBasePresenter<in V : BaseView> : BasePresenter<V>, ResponseHandler<Any> {

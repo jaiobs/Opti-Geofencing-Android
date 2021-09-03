@@ -1,4 +1,4 @@
-package com.example.orgware.kotlinapicall.data.respones.polyline
+package com.example.orgware.kotlinemap.respones.polyline
 
 import com.google.gson.annotations.SerializedName
 

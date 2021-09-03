@@ -1,4 +1,4 @@
-package com.example.orgware.kotlinapicall.ui.polyline
+package com.example.orgware.kotlinemap.ui.polyline
 
 import android.Manifest
 import android.animation.Animator
@@ -13,7 +13,7 @@ import android.location.LocationManager
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
-import com.example.orgware.kotlinapicall.base.BaseActivity
+import com.example.orgware.kotlinemap.base.BaseActivity
 import com.example.orgware.kotlinemap.R
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.api.GoogleApiClient
@@ -22,14 +22,11 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.location.LocationListener
 import com.google.android.gms.location.LocationRequest
-import com.google.android.gms.maps.CameraUpdateFactory
 import android.provider.Settings
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
-import android.util.Log
 import android.util.Property
-import com.example.orgware.kotlinapicall.data.respones.polyline.MapResponse
-import com.example.orgware.kotlinemap.ui.polyline.spherical
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import com.example.orgware.kotlinemap.respones.polyline.MapResponse
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.*
 import java.util.ArrayList

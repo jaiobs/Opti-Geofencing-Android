@@ -1,7 +1,6 @@
-package com.example.orgware.kotlinapicall.app
+package com.example.orgware.kotlinemap.app
 
 import android.app.Application
-import com.example.orgware.kotlinemap.app.RealmConfigFactory
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder

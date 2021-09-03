@@ -5,9 +5,16 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
-        android:name="com.example.orgware.kotlinapicall.app.AppController"
+        android:name=".app.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,28 +22,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainHomeActivity">
-                        <intent-filter>
-                            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                            <category android:name="android.intent.category.LAUNCHER" />
-                        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name="com.example.orgware.kotlinapicall.ui.polyline.PolylineActivity">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+        <activity android:name=".ui.polyline.PolylineActivity">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
         </activity>
 
         <service
             android:name=".ui.geomap.GeofenceTransitionsIntentService"
             android:allowBackup="true" />
-        <activity android:name=".ui.geomap.GeoActivity"/>
-        <activity android:name=".ui.one.OneActivity"/>
-        <activity android:name=".ui.two.TwoActivity"/>
-        <activity android:name=".ui.tthree.ThreeActivity"/>
-        <activity android:name=".ui.four.FourActivity"/>
+
+        <activity android:name=".ui.geomap.GeoActivity" />
+        <activity android:name=".ui.one.OneActivity" />
+        <activity android:name=".ui.two.TwoActivity" />
+        <activity android:name=".ui.tthree.ThreeActivity" />
+        <activity android:name=".ui.four.FourActivity" />
 
 
         <meta-data

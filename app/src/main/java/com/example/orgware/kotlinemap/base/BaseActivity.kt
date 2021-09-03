@@ -1,15 +1,15 @@
-package com.example.orgware.kotlinapicall.base
+package com.example.orgware.kotlinemap.base
 
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import android.view.MotionEvent
 import android.view.Window
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.orgware.kotlinemap.R
 
 
@@ -68,9 +68,10 @@ open class BaseActivity : AppCompatActivity() {
                 val x = event.rawX + w!!.left - scr[0]
                 val y = event.rawY + w.top - scr[1]
                 if (event.action == MotionEvent.ACTION_UP && (x < w.left
-                                || x >= w.right
-                                || y < w.top
-                                || y > w.bottom)) {
+                            || x >= w.right
+                            || y < w.top
+                            || y > w.bottom)
+                ) {
                     hideSoftInput()
                 }
             }
@@ -97,7 +98,6 @@ open class BaseActivity : AppCompatActivity() {
         dialog!!.setCancelable(false)
         dialog!!.show()
     }
-
 
 
     fun hideProgress() {

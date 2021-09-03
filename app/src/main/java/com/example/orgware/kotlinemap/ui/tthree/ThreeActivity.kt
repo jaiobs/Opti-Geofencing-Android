@@ -3,7 +3,6 @@ package com.example.orgware.kotlinemap.ui.tthree
 import android.Manifest
 import android.animation.IntEvaluator
 import android.animation.ValueAnimator
-import android.animation.ValueAnimator.AnimatorUpdateListener
 import android.annotation.SuppressLint
 import android.app.PendingIntent
 import android.content.Intent
@@ -11,14 +10,13 @@ import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
 import android.util.Log
 import android.view.animation.AccelerateDecelerateInterpolator
-import android.view.animation.LinearInterpolator
 import android.widget.Toast
-import com.example.orgware.kotlinapicall.app.AppConstants
-import com.example.orgware.kotlinapicall.base.BaseActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import com.example.orgware.kotlinemap.app.AppConstants
+import com.example.orgware.kotlinemap.base.BaseActivity
 import com.example.orgware.kotlinemap.R
 import com.example.orgware.kotlinemap.respones.georespones.GeoRespones
 import com.example.orgware.kotlinemap.ui.geomap.GeofenceTransitionsIntentService
@@ -28,8 +26,8 @@ import com.google.android.gms.location.GeofencingRequest
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.*
-import com.grumpyshoe.module.locationmanager.LocationManager
-import com.grumpyshoe.module.locationmanager.impl.LocationManagerImpl
+import com.example.orgware.kotlinemap.respones.locationmanager.LocationManager
+import com.example.orgware.kotlinemap.respones.locationmanager.LocationManagerImpl
 import java.util.*
 
 

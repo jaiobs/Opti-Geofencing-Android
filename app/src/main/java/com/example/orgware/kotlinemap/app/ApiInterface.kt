@@ -1,6 +1,6 @@
-package com.example.orgware.kotlinapicall.app
+package com.example.orgware.kotlinemap.app
 
-import com.example.orgware.kotlinapicall.data.respones.polyline.MapResponse
+import com.example.orgware.kotlinemap.respones.polyline.MapResponse
 import com.example.orgware.kotlinemap.respones.gird.GirdResponse
 import retrofit2.http.GET
 import retrofit2.http.Query

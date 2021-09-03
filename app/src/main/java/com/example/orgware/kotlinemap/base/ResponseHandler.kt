@@ -1,4 +1,4 @@
-package com.example.orgware.kotlinapicall.base
+package com.example.orgware.kotlinemap.base
 
 
 interface ResponseHandler<in T> {

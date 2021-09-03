@@ -1,15 +1,16 @@
-package com.example.orgware.kotlinapicall.utils
+package com.example.orgware.kotlinemap.utils
 
 import android.content.Context
 import android.content.DialogInterface
 import android.graphics.Color
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.Window
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import com.example.orgware.kotlinemap.R
+import com.google.android.material.snackbar.Snackbar
 
 
 object UiUtils {
@@ -17,7 +18,7 @@ object UiUtils {
     fun showSnackBar(view: View, message: String, length: Int) {
         val snackbar = Snackbar.make(view, message, length)
         val v = snackbar.view
-        val textView = v.findViewById<View>(android.support.design.R.id.snackbar_text) as TextView
+        val textView = v.findViewById<View>(R.id.snackbar_text) as TextView
         textView.setTextColor(Color.WHITE)
         textView.maxLines = 4
         snackbar.show()
@@ -27,7 +28,7 @@ object UiUtils {
                                actionResId: Int, actionClickListener: View.OnClickListener) {
         val snackbar = Snackbar.make(view, messageResId, length)
         val v = snackbar.view
-        val textView = v.findViewById<View>(android.support.design.R.id.snackbar_text) as TextView
+        val textView = v.findViewById<View>(R.id.snackbar_text) as TextView
         textView.setTextColor(Color.WHITE)
         textView.maxLines = 4
         snackbar.setAction(actionResId, actionClickListener)
@@ -38,7 +39,7 @@ object UiUtils {
                                actionClickListener: View.OnClickListener) {
         val snackbar = Snackbar.make(view, message, length)
         val v = snackbar.view
-        val textView = v.findViewById<View>(android.support.design.R.id.snackbar_text) as TextView
+        val textView = v.findViewById<View>(R.id.snackbar_text) as TextView
         textView.setTextColor(Color.WHITE)
         textView.maxLines = 4
         snackbar.setAction(action, actionClickListener)
@@ -48,7 +49,7 @@ object UiUtils {
     fun showSnackBar(view: View, message: Int, length: Int) {
         val snackbar = Snackbar.make(view, message, length)
         val v = snackbar.view
-        val textView = v.findViewById<View>(android.support.design.R.id.snackbar_text) as TextView
+        val textView = v.findViewById<View>(R.id.snackbar_text) as TextView
         textView.setTextColor(Color.WHITE)
         textView.maxLines = 4
         snackbar.show()

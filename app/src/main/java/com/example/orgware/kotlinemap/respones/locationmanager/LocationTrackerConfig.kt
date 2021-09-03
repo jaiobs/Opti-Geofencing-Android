@@ -1,4 +1,4 @@
-package com.grumpyshoe.module.locationmanager.models
+package com.example.orgware.kotlinemap.respones.locationmanager
 
 import com.google.android.gms.location.LocationRequest
 

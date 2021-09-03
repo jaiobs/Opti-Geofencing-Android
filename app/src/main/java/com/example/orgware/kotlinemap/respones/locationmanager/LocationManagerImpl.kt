@@ -1,4 +1,4 @@
-package com.grumpyshoe.module.locationmanager.impl
+package com.example.orgware.kotlinemap.respones.locationmanager
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -7,14 +7,12 @@ import android.content.Intent
 import android.content.IntentSender
 import android.content.pm.PackageManager
 import android.location.Location
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
 import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
 import com.google.android.gms.tasks.Task
-import com.grumpyshoe.module.locationmanager.LocationManager
-import com.grumpyshoe.module.locationmanager.models.LocationTrackerConfig
 
 
 /**

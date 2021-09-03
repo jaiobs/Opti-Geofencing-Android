@@ -1,4 +1,4 @@
-package com.example.orgware.kotlinapicall.utils
+package com.example.orgware.kotlinemap.utils
 
 import android.util.Base64
 

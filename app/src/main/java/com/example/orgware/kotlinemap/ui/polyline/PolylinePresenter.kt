@@ -1,9 +1,9 @@
-package com.example.orgware.kotlinapicall.ui.polyline
+package com.example.orgware.kotlinemap.ui.polyline
 
-import com.example.orgware.kotlinapicall.app.AppController
-import com.example.orgware.kotlinapicall.base.AbstractBasePresenter
-import com.example.orgware.kotlinapicall.data.respones.polyline.MapResponse
-import com.example.orgware.kotlinapicall.utils.RxJavaUtils
+import com.example.orgware.kotlinemap.app.AppController
+import com.example.orgware.kotlinemap.base.AbstractBasePresenter
+import com.example.orgware.kotlinemap.respones.polyline.MapResponse
+import com.example.orgware.kotlinemap.utils.RxJavaUtils
 import rx.functions.Action1
 
 class PolylinePresenter: AbstractBasePresenter<Polylineview>(){

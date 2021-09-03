@@ -1,13 +1,13 @@
-package com.example.orgware.kotlinapicall.app
+package com.example.orgware.kotlinemap.app
 
-import com.example.orgware.kotlinapicall.data.respones.polyline.MapResponse
-import com.example.orgware.kotlinapicall.utils.RxJavaUtils
+import com.example.orgware.kotlinemap.respones.polyline.MapResponse
+import com.example.orgware.kotlinemap.utils.RxJavaUtils
 import com.example.orgware.kotlinemap.respones.gird.GirdResponse
 import io.realm.RealmConfiguration
 import rx.Observable
 
 
-class AppRepo(appApi: ApiInterface,realmConfiguration: RealmConfiguration?) {
+class AppRepo(appApi: ApiInterface, realmConfiguration: RealmConfiguration?) {
 
 
     private var appApi: ApiInterface

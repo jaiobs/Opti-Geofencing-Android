@@ -1,9 +1,8 @@
-package com.grumpyshoe.module.locationmanager
+package com.example.orgware.kotlinemap.respones.locationmanager
 
 import android.app.Activity
 import android.content.Intent
 import android.location.Location
-import com.grumpyshoe.module.locationmanager.models.LocationTrackerConfig
 
 
 /**

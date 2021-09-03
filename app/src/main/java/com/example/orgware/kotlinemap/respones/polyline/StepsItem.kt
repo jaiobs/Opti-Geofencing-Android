@@ -1,30 +1,31 @@
-package com.example.orgware.kotlinapicall.data.respones.polyline
+package com.example.orgware.kotlinemap.respones.polyline
 
+import com.example.orgware.kotlinemap.respones.polyline.*
 import com.google.gson.annotations.SerializedName
 
 data class StepsItem(
 
-	@field:SerializedName("duration")
+    @field:SerializedName("duration")
 	val duration: Duration? = null,
 
-	@field:SerializedName("start_location")
+    @field:SerializedName("start_location")
 	val startLocation: StartLocation? = null,
 
-	@field:SerializedName("distance")
+    @field:SerializedName("distance")
 	val distance: Distance? = null,
 
-	@field:SerializedName("travel_mode")
+    @field:SerializedName("travel_mode")
 	val travelMode: String? = null,
 
-	@field:SerializedName("html_instructions")
+    @field:SerializedName("html_instructions")
 	val htmlInstructions: String? = null,
 
-	@field:SerializedName("end_location")
+    @field:SerializedName("end_location")
 	val endLocation: EndLocation? = null,
 
-	@field:SerializedName("polyline")
+    @field:SerializedName("polyline")
 	val polyline: Polyline? = null,
 
-	@field:SerializedName("maneuver")
+    @field:SerializedName("maneuver")
 	val maneuver: String? = null
 )
