@@ -4,57 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".MainHomeActivity">
 
     <Button
-        android:id="@+id/option"
+        android:id="@+id/btn_current_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="current Location"
+        android:text="@string/current_location"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/option1"
+        android:id="@+id/btn_custom_marker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="custome marker"
+        android:text="@string/custom_marker"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_current_location" />
 
     <Button
-        android:id="@+id/option2"
+        android:id="@+id/btn_geo_fencing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Geo fencing"
+        android:text="@string/geo_fencing"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_custom_marker" />
 
     <Button
-        android:id="@+id/option3"
+        android:id="@+id/btn_polyline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="poly line"
+        android:text="@string/polyline"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_geo_fencing" />
 
     <Button
         android:id="@+id/option4"
@@ -64,6 +63,6 @@
         android:text="Button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_polyline" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

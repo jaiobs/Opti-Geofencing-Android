@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KotlineMap</string>
+    <string name="current_location">current Location</string>
+    <string name="custom_marker">Custom Marker</string>
+    <string name="geo_fencing">Geo fencing</string>
+    <string name="polyline">Polyline</string>
 </resources>

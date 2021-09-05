@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.orgware.kotlinemap">
+    package="com.example.optisol.kotlinemap">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,21 +14,21 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
-        android:name=".app.AppController"
+        android:name="com.example.optisol.kotlinemap.app.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainHomeActivity">
+        <activity android:name="com.example.optisol.kotlinemap.MainHomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.polyline.PolylineActivity">
+        <activity android:name="com.example.optisol.kotlinemap.ui.polyline.PolylineActivity">
             <!--            <intent-filter>-->
             <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -37,14 +37,14 @@
         </activity>
 
         <service
-            android:name=".ui.geomap.GeofenceTransitionsIntentService"
+            android:name="com.example.optisol.kotlinemap.ui.geomap.GeofenceTransitionsIntentService"
             android:allowBackup="true" />
 
-        <activity android:name=".ui.geomap.GeoActivity" />
-        <activity android:name=".ui.one.OneActivity" />
-        <activity android:name=".ui.two.TwoActivity" />
-        <activity android:name=".ui.tthree.ThreeActivity" />
-        <activity android:name=".ui.four.FourActivity" />
+        <activity android:name="com.example.optisol.kotlinemap.ui.geomap.GeoActivity" />
+        <activity android:name="com.example.optisol.kotlinemap.ui.one.CurrentLocationActivity" />
+        <activity android:name="com.example.optisol.kotlinemap.ui.two.CustomMarkerActivity" />
+        <activity android:name="com.example.optisol.kotlinemap.ui.tthree.GeofenceActivity" />
+        <activity android:name="com.example.optisol.kotlinemap.ui.four.PolylineActivity" />
 
 
         <meta-data

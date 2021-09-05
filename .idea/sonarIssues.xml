@@ -18,6 +18,56 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/four/PolylineActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/geomap/GeoActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/geomap/GeofenceTransitionsIntentService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/one/CurrentLocationActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/polyline/PolylineActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/polyline/PolylinePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/polyline/Polylineview.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/polyline/spherical.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/tthree/GeofenceActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/two/CustomMarkerActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/MainActivity.java">
           <value>
             <set />
@@ -193,7 +243,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/four/PolylineActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/geomap/GeoActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/geomap/GeofenceTransitionsIntentService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/one/CurrentLocationActivity.kt">
           <value>
             <set />
           </value>
@@ -223,7 +288,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/tthree/GeofenceActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/tthree/ThreeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/orgware/kotlinemap/ui/two/CustomMarkerActivity.kt">
           <value>
             <set />
           </value>
@@ -293,6 +368,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -304,6 +384,46 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint1/choosetask/ChooseTaskActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint1/myrequest/MyRequestActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint1/sendrequest/SendRequestActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint3/payment/StripePaymentActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/res/layout/item_choose_task_new.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/res/layout/item_my_request_new.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/res/layout/item_stripe.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/res/values/strings.xml">
           <value>
             <set />
           </value>
