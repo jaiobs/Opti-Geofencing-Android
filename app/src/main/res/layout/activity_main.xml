@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainHomeActivity">
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/btn_current_location"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/current_location"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -20,49 +21,63 @@
 
     <Button
         android:id="@+id/btn_custom_marker"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/custom_marker"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_current_location"
+        app:layout_constraintStart_toStartOf="@+id/btn_current_location"
         app:layout_constraintTop_toBottomOf="@+id/btn_current_location" />
 
     <Button
         android:id="@+id/btn_geo_fencing"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/geo_fencing"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_custom_marker"
+        app:layout_constraintStart_toStartOf="@+id/btn_custom_marker"
         app:layout_constraintTop_toBottomOf="@+id/btn_custom_marker" />
 
     <Button
         android:id="@+id/btn_polyline"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/polyline"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_geo_fencing"
         app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_geo_fencing"
         app:layout_constraintTop_toBottomOf="@+id/btn_geo_fencing" />
 
     <Button
-        android:id="@+id/option4"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_multi_marker"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Button5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:text="@string/multi_marker_and_geofence"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_polyline"
+        app:layout_constraintStart_toStartOf="@+id/btn_polyline"
         app:layout_constraintTop_toBottomOf="@+id/btn_polyline" />
+
+    <Button
+        android:id="@+id/btn_distance_calculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/distance_between_two_latlng"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_multi_marker"
+        app:layout_constraintStart_toStartOf="@+id/btn_multi_marker"
+        app:layout_constraintTop_toBottomOf="@+id/btn_multi_marker" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

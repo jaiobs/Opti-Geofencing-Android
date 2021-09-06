@@ -1,4 +1,4 @@
-package com.example.optisol.kotlinemap.ui.one
+package com.example.optisol.kotlinemap.ui.currentlocation
 
 import android.Manifest
 import android.annotation.SuppressLint

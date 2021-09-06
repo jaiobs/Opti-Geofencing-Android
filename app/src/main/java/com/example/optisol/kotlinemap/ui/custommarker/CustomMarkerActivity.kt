@@ -1,4 +1,4 @@
-package com.example.optisol.kotlinemap.ui.two
+package com.example.optisol.kotlinemap.ui.custommarker
 
 import android.Manifest
 import android.annotation.SuppressLint

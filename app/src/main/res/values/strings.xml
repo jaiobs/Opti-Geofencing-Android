@@ -4,4 +4,7 @@
     <string name="custom_marker">Custom Marker</string>
     <string name="geo_fencing">Geo fencing</string>
     <string name="polyline">Polyline</string>
+    <string name="multi_marker_and_geofence">Multi marker and Geofence</string>
+    <string name="distance_between_two_latlng">Distance between Two LatLng</string>
+    <string name="total_distance">Total Distance</string>
 </resources>

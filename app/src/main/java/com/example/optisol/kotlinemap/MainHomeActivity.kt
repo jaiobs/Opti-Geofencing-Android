@@ -13,10 +13,11 @@ import com.example.optisol.kotlinemap.helper.location.LocationHelper
 import com.example.optisol.kotlinemap.helper.location.LocationManagers
 import com.example.optisol.kotlinemap.helper.runtime.PermissionHelper
 import com.example.optisol.kotlinemap.ui.geomap.GeoActivity
-import com.example.optisol.kotlinemap.ui.one.CurrentLocationActivity
+import com.example.optisol.kotlinemap.ui.currentlocation.CurrentLocationActivity
 import com.example.optisol.kotlinemap.ui.polyline.PolylineActivity
-import com.example.optisol.kotlinemap.ui.tthree.GeofenceActivity
-import com.example.optisol.kotlinemap.ui.two.CustomMarkerActivity
+import com.example.optisol.kotlinemap.ui.geofence.GeofenceActivity
+import com.example.optisol.kotlinemap.ui.custommarker.CustomMarkerActivity
+import com.example.optisol.kotlinemap.ui.distancecalculate.DistanceCalculationActivity
 import com.example.optisol.kotlinemap.utils.UiUtils
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.LocationRequest
@@ -43,7 +44,8 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
         btn_custom_marker.setOnClickListener(this)
         btn_geo_fencing.setOnClickListener(this)
         btn_polyline.setOnClickListener(this)
-        option4.setOnClickListener(this)
+        btn_multi_marker.setOnClickListener(this)
+        btn_distance_calculate.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -64,8 +66,12 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
                 val intent = Intent(this, PolylineActivity::class.java)
                 startActivity(intent)
             }
-            R.id.option4 -> {
+            R.id.btn_multi_marker -> {
                 val intent = Intent(this, GeoActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btn_distance_calculate -> {
+                val intent = Intent(this, DistanceCalculationActivity::class.java)
                 startActivity(intent)
             }
         }
