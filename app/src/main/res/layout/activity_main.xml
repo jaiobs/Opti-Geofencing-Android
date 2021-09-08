@@ -80,4 +80,16 @@
         app:layout_constraintStart_toStartOf="@+id/btn_multi_marker"
         app:layout_constraintTop_toBottomOf="@+id/btn_multi_marker" />
 
+    <Button
+        android:id="@+id/btn_direction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/direction_api"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_distance_calculate"
+        app:layout_constraintStart_toStartOf="@+id/btn_distance_calculate"
+        app:layout_constraintTop_toBottomOf="@+id/btn_distance_calculate" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

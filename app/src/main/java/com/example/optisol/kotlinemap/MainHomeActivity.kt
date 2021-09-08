@@ -17,6 +17,7 @@ import com.example.optisol.kotlinemap.ui.currentlocation.CurrentLocationActivity
 import com.example.optisol.kotlinemap.ui.polyline.PolylineActivity
 import com.example.optisol.kotlinemap.ui.geofence.GeofenceActivity
 import com.example.optisol.kotlinemap.ui.custommarker.CustomMarkerActivity
+import com.example.optisol.kotlinemap.ui.directions.DirectionActivity
 import com.example.optisol.kotlinemap.ui.distancecalculate.DistanceCalculationActivity
 import com.example.optisol.kotlinemap.utils.UiUtils
 import com.google.android.gms.common.api.ResolvableApiException
@@ -46,6 +47,7 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
         btn_polyline.setOnClickListener(this)
         btn_multi_marker.setOnClickListener(this)
         btn_distance_calculate.setOnClickListener(this)
+        btn_direction.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -72,6 +74,10 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
             }
             R.id.btn_distance_calculate -> {
                 val intent = Intent(this, DistanceCalculationActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btn_direction ->{
+                val intent = Intent(this,DirectionActivity::class.java)
                 startActivity(intent)
             }
         }

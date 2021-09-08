@@ -7,4 +7,6 @@
     <string name="multi_marker_and_geofence">Multi marker and Geofence</string>
     <string name="distance_between_two_latlng">Distance between Two LatLng</string>
     <string name="total_distance">Total Distance</string>
+    <string name="direction_api">Direction Api</string>
+    <string name="ok">okay</string>
 </resources>
