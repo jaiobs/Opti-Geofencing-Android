@@ -5,10 +5,6 @@ Eapp/src/main/java/com/example/optisol/kotlinemap/base/BaseActivity.kt,0\1\012a
 Papp/src/main/java/com/example/optisol/kotlinemap/ui/geofence/GeofenceActivity.kt,d\d\dd6c193d896d91332aba3530bcd3705cadc4cdf7
 ‡
 Wapp/src/main/java/com/example/optisol/kotlinemap/config/GoogleDirectionConfiguration.kt,5\1\517b8feaf234b228d0ce7ea8915a7525a8cba929
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 o
 ?app/src/main/java/com/example/optisol/kotlinemap/model/Route.kt,d\e\deb801bbe2ed36543b630f5c6ab82723e5adc358
 o
