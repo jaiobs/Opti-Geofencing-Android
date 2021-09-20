@@ -20,10 +20,8 @@ import com.example.optisol.kotlinemap.ui.custommarker.CustomMarkerActivity
 import com.example.optisol.kotlinemap.ui.directions.DirectionActivity
 import com.example.optisol.kotlinemap.ui.distancecalculate.DistanceCalculationActivity
 import com.example.optisol.kotlinemap.utils.UiUtils
-import com.google.android.gms.common.api.ResolvableApiException
-import com.google.android.gms.location.LocationRequest
-import com.google.android.gms.location.LocationServices
-import com.google.android.gms.location.LocationSettingsRequest
+import com.optisol.optigeofencingandroid.MapActivity
+import com.optisol.optigeofencingandroid.MapFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
@@ -31,6 +29,7 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
     private var locationHelper: LocationHelper? = null
     private var permissionHelper: PermissionHelper? = null
     private val REQUEST_CHECK_SETTINGS = 1
+    private lateinit var mapFragment: MapFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +37,7 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
         permissionHelper = PermissionHelper(141, this, this)
         permissionHelper?.openPermissionDialog()
         initView()
+        //mapFragment = MapFragment()
     }
 
     private fun initView() {
@@ -53,7 +53,7 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.btn_current_location -> {
-                val intent = Intent(this, CurrentLocationActivity::class.java)
+                val intent = Intent(this, MapActivity::class.java)
                 startActivity(intent)
             }
             R.id.btn_custom_marker -> {
@@ -112,7 +112,7 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
     }
 
     protected fun enableGPS() {
-        val mLocationRequest = LocationRequest()
+        /*val mLocationRequest = LocationRequest()
         mLocationRequest.interval = 1000 * 10.toLong()
         mLocationRequest.fastestInterval = 5000
         mLocationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
@@ -130,7 +130,7 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
                     Toast.makeText(this, sendEx.localizedMessage, Toast.LENGTH_SHORT).show()
                 }
             }
-        }
+        }*/
     }
 
 

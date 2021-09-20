@@ -23,10 +23,14 @@ import com.example.optisol.kotlinemap.base.BaseActivity
 import com.example.optisol.kotlinemap.R
 import com.google.android.gms.location.GeofencingClient
 import com.google.android.gms.location.LocationServices
-import com.google.android.gms.maps.*
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
-import com.example.optisol.kotlinemap.respones.locationmanager.LocationManager
-import com.example.optisol.kotlinemap.respones.locationmanager.LocationManagerImpl
+import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManager
+import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManagerImpl
+import com.optisol.optigeofencingandroid.MapFragment
 import de.hdodenhof.circleimageview.CircleImageView
 import java.util.*
 
@@ -35,7 +39,8 @@ class CustomMarkerActivity : BaseActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private var REQUEST_LOCATION_CODE = 101
-    val locationManager: LocationManager = LocationManagerImpl()
+    val locationManager: LocationManager =
+        LocationManagerImpl()
     private var latLng: LatLng? = null
     lateinit var geofencingClient: GeofencingClient
     private var newMarker: Marker? = null
@@ -53,7 +58,6 @@ class CustomMarkerActivity : BaseActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.fragment2) as SupportMapFragment
         mapFragment.getMapAsync(this)
-
     }
 
     private fun startLocationMonitor() {
@@ -169,7 +173,7 @@ class CustomMarkerActivity : BaseActivity(), OnMapReadyCallback {
             return
         }
         mMap!!.clear()
-        mMap!!.setMyLocationEnabled(true)
+        mMap!!.isMyLocationEnabled = true
         this.mMap = mMap
 
 
@@ -220,6 +224,7 @@ class CustomMarkerActivity : BaseActivity(), OnMapReadyCallback {
         requestCode: Int,
         permissions: Array<String>, grantResults: IntArray
     ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             REQUEST_LOCATION_CODE -> {
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
@@ -229,7 +234,7 @@ class CustomMarkerActivity : BaseActivity(), OnMapReadyCallback {
                             Manifest.permission.ACCESS_FINE_LOCATION
                         ) == PackageManager.PERMISSION_GRANTED
                     ) {
-                        mMap.isMyLocationEnabled = true
+                        //mMap.isMyLocationEnabled = true
                     }
                 } else {
                     Toast.makeText(

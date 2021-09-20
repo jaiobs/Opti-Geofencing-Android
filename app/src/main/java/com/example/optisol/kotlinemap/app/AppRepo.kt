@@ -1,8 +1,8 @@
 package com.example.optisol.kotlinemap.app
 
-import com.example.optisol.kotlinemap.respones.polyline.MapResponse
 import com.example.optisol.kotlinemap.utils.RxJavaUtils
-import com.example.optisol.kotlinemap.respones.gird.GirdResponse
+import com.optisol.optigeofencingandroid.respones.gird.GirdResponse
+import com.optisol.optigeofencingandroid.respones.polyline.MapResponse
 import rx.Observable
 
 

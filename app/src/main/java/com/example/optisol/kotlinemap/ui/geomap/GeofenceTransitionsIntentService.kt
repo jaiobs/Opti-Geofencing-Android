@@ -1,18 +1,13 @@
 package com.example.optisol.kotlinemap.ui.geomap
 
 import android.app.IntentService
-import android.content.ContentValues.TAG
 import android.content.Intent
-import android.util.Log
-import android.widget.Toast
-import com.google.android.gms.location.Geofence
-import com.google.android.gms.location.GeofencingEvent
 
 class GeofenceTransitionsIntentService : IntentService("GeofenceTransitionsIntentService") {
 
 
     override fun onHandleIntent(intent: Intent?) {
-        val geofencingEvent = GeofencingEvent.fromIntent(intent)
+       /* val geofencingEvent = GeofencingEvent.fromIntent(intent)
         if (geofencingEvent.hasError()) {
             Log.e(TAG, "error")
             return
@@ -25,6 +20,6 @@ class GeofenceTransitionsIntentService : IntentService("GeofenceTransitionsInten
             Toast.makeText(applicationContext,"Enter",Toast.LENGTH_LONG).show()
         } else {
             Toast.makeText(applicationContext,"Error",Toast.LENGTH_LONG).show()
-        }
+        }*/
     }
 }

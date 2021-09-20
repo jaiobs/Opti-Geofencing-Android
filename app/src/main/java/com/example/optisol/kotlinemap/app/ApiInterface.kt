@@ -1,7 +1,7 @@
 package com.example.optisol.kotlinemap.app
 
-import com.example.optisol.kotlinemap.respones.polyline.MapResponse
-import com.example.optisol.kotlinemap.respones.gird.GirdResponse
+import com.optisol.optigeofencingandroid.respones.gird.GirdResponse
+import com.optisol.optigeofencingandroid.respones.polyline.MapResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 import rx.Observable
@@ -19,6 +19,6 @@ interface ApiInterface {
 
 
     @GET("serviceTypeImages")
-    fun getGirdvalues(): Observable<GirdResponse>
+    fun getGirdvalues(): Observable<com.optisol.optigeofencingandroid.respones.gird.GirdResponse>
 
 }

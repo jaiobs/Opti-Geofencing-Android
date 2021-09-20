@@ -1,18 +1,10 @@
 
-u
-Eapp/src/main/java/com/example/optisol/kotlinemap/base/BaseActivity.kt,0\1\012ad9a25afead1954e1a58616c6dfea32fb66cc
-€
-Papp/src/main/java/com/example/optisol/kotlinemap/ui/geofence/GeofenceActivity.kt,d\d\dd6c193d896d91332aba3530bcd3705cadc4cdf7
-‡
-Wapp/src/main/java/com/example/optisol/kotlinemap/config/GoogleDirectionConfiguration.kt,5\1\517b8feaf234b228d0ce7ea8915a7525a8cba929
 o
 ?app/src/main/java/com/example/optisol/kotlinemap/model/Route.kt,d\e\deb801bbe2ed36543b630f5c6ab82723e5adc358
 o
 ?app/src/main/java/com/example/optisol/kotlinemap/model/Bound.kt,0\3\03e9f6ecbbcd8299e856f1f39868a9c541dc2f28
 v
 Fapp/src/main/java/com/example/optisol/kotlinemap/model/Coordination.kt,d\5\d5bbc42430cd906deb868835898e016b38c5597a
-x
-Happ/src/main/java/com/example/optisol/kotlinemap/config/RequestResult.kt,a\6\a67f651fb0d9dc254a285c2683f79684fa17f9bb
 s
 Capp/src/main/java/com/example/optisol/kotlinemap/model/Direction.kt,6\b\6b2d15b710bcff2889868c3cff5aea7985c0e163
 n
@@ -37,9 +29,21 @@ q
 Aapp/src/main/java/com/example/optisol/kotlinemap/model/Vehicle.kt,c\3\c3db65f0f40cb6a222cca9a0f48e4b979cc3225b
 r
 Bapp/src/main/java/com/example/optisol/kotlinemap/model/Waypoint.kt,2\6\266bf029d6a4e699c33ba8d3d0e70cd799248d21
-}
-Mapp/src/main/java/com/example/optisol/kotlinemap/config/DirectionConverter.kt,a\6\a68dbbc36a05532fcfd4db102f2b6bbed8f8ca80
+„
+TOptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/OptiMapView.kt,a\8\a8577bab924f678ea8897ef7b5881b9c398f2860
+t
+Dapp/src/main/java/com/example/optisol/kotlinemap/config/Constants.kt,4\a\4ad20ca8b0120089a7e90a71e94f334947938cc5
+Ž
+^app/src/main/java/com/example/optisol/kotlinemap/ui/geomap/GeofenceTransitionsIntentService.kt,1\e\1ec7f2ff166c4d055b80b69a1e848b4d515c41ec
+¥
+uOptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/respones/locationmanager/LocationManagerImpl.kt,b\f\bf2810a3bc488a38e96ee5d34d19780f005c8e5e
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+~
+Napp/src/main/java/com/example/optisol/kotlinemap/base/AbstractBasePresenter.kt,3\6\36387c1e0cd7e4b63a753e43a49c471914bf93ae
+b
+2OptiGeofencingAndroid/src/main/AndroidManifest.xml,8\f\8f2cfcddce71047c0e8c474d0c405d12ba4752b2
+u
+Eapp/src/main/java/com/example/optisol/kotlinemap/base/BaseActivity.kt,0\1\012ad9a25afead1954e1a58616c6dfea32fb66cc
 p
 @app/src/main/java/com/example/optisol/kotlinemap/model/Agency.kt,1\6\16c4c5def2a15054c4cb9e51eabaf50824eca1cb
-m
-=app/src/main/java/com/example/optisol/kotlinemap/model/Leg.kt,3\6\364a55572f5178ef1c2bdf44a0e4b46748199e0d

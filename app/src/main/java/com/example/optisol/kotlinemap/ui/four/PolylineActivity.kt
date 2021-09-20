@@ -12,8 +12,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.optisol.kotlinemap.R
 import com.example.optisol.kotlinemap.base.BaseActivity
-import com.example.optisol.kotlinemap.respones.locationmanager.LocationManager
-import com.example.optisol.kotlinemap.respones.locationmanager.LocationManagerImpl
 import com.google.android.gms.location.GeofencingClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -24,6 +22,8 @@ import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.PolylineOptions
+import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManager
+import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManagerImpl
 import java.util.*
 
 class PolylineActivity : BaseActivity(), OnMapReadyCallback {

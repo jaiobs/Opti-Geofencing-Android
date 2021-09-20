@@ -18,9 +18,6 @@ import androidx.core.content.ContextCompat
 import com.example.optisol.kotlinemap.R
 import com.example.optisol.kotlinemap.app.AppConstants
 import com.example.optisol.kotlinemap.base.BaseActivity
-import com.example.optisol.kotlinemap.respones.georespones.GeoRespones
-import com.example.optisol.kotlinemap.respones.locationmanager.LocationManager
-import com.example.optisol.kotlinemap.respones.locationmanager.LocationManagerImpl
 import com.example.optisol.kotlinemap.ui.geomap.GeofenceTransitionsIntentService
 import com.google.android.gms.location.Geofence
 import com.google.android.gms.location.GeofencingClient
@@ -28,6 +25,9 @@ import com.google.android.gms.location.GeofencingRequest
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.*
+import com.optisol.optigeofencingandroid.respones.georespones.GeoRespones
+import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManager
+import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManagerImpl
 import java.util.*
 
 class GeofenceActivity : BaseActivity(), OnMapReadyCallback {

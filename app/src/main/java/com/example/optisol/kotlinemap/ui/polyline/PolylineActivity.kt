@@ -19,7 +19,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.optisol.kotlinemap.R
 import com.example.optisol.kotlinemap.base.BaseActivity
-import com.example.optisol.kotlinemap.respones.polyline.MapResponse
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.android.gms.location.LocationListener
@@ -29,7 +28,7 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
-import java.util.*
+import com.optisol.optigeofencingandroid.respones.polyline.MapResponse
 
 class PolylineActivity : BaseActivity(), Polylineview, OnMapReadyCallback,
     GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,

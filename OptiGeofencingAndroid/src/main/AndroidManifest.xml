@@ -13,4 +13,10 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
+    <application>
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
+    </application>
+
 </manifest>

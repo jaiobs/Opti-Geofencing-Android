@@ -2,8 +2,8 @@ package com.example.optisol.kotlinemap.ui.polyline
 
 import com.example.optisol.kotlinemap.app.AppController
 import com.example.optisol.kotlinemap.base.AbstractBasePresenter
-import com.example.optisol.kotlinemap.respones.polyline.MapResponse
 import com.example.optisol.kotlinemap.utils.RxJavaUtils
+import com.optisol.optigeofencingandroid.respones.polyline.MapResponse
 import rx.functions.Action1
 
 class PolylinePresenter: AbstractBasePresenter<Polylineview>(){
