@@ -1,6 +1,7 @@
 package com.optisol.optigeofencingandroid
 
 import android.Manifest
+import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -32,9 +33,10 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission()
         }
+
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.mapFragment) as SupportMapFragment
-        mapFragment.getMapAsync(this)
+                .findFragmentById(R.id.mapFragment) as SupportMapFragment?
+        mapFragment?.getMapAsync(this)
 
     }
 
