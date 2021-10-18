@@ -11,7 +11,6 @@ import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.optisol.kotlinemap.R
-import com.example.optisol.kotlinemap.base.BaseActivity
 import com.google.android.gms.location.GeofencingClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -22,6 +21,7 @@ import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.PolylineOptions
+import com.optisol.optigeofencingandroid.base.BaseActivity
 import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManager
 import com.optisol.optigeofencingandroid.respones.locationmanager.LocationManagerImpl
 import java.util.*
@@ -138,6 +138,7 @@ class PolylineActivity : BaseActivity(), OnMapReadyCallback {
         requestCode: Int,
         permissions: Array<String>, grantResults: IntArray
     ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             REQUEST_LOCATION_CODE -> {
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {

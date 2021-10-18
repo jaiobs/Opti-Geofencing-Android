@@ -1,8 +1,8 @@
 package com.example.optisol.kotlinemap.ui.polyline
 
-import com.example.optisol.kotlinemap.app.AppController
-import com.example.optisol.kotlinemap.base.AbstractBasePresenter
-import com.example.optisol.kotlinemap.utils.RxJavaUtils
+import com.optisol.optigeofencingandroid.app.AppController
+import com.optisol.optigeofencingandroid.base.AbstractBasePresenter
+import com.optisol.optigeofencingandroid.utils.RxJavaUtils
 import com.optisol.optigeofencingandroid.respones.polyline.MapResponse
 import rx.functions.Action1
 

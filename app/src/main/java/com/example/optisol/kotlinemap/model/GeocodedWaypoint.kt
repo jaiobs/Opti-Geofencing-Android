@@ -3,6 +3,7 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.GeocodedWaypoint
 
 class GeocodedWaypoint : Parcelable {
     @SerializedName("geocoder_status")
@@ -35,7 +36,7 @@ class GeocodedWaypoint : Parcelable {
         val CREATOR: Parcelable.Creator<GeocodedWaypoint?> =
             object : Parcelable.Creator<GeocodedWaypoint?> {
                 override fun createFromParcel(`in`: Parcel): GeocodedWaypoint? {
-                    return GeocodedWaypoint(`in`)
+                    return com.optisol.optigeofencingandroid.model.GeocodedWaypoint(`in`)
                 }
 
                 override fun newArray(size: Int): Array<GeocodedWaypoint?> {

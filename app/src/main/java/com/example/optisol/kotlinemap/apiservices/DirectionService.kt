@@ -1,7 +1,7 @@
 package com.example.optisol.kotlinemap.apiservices
 
-import com.example.optisol.kotlinemap.config.Constants
-import com.example.optisol.kotlinemap.model.Direction
+import com.optisol.optigeofencingandroid.config.Constants
+import com.optisol.optigeofencingandroid.model.Direction
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -1,5 +1,7 @@
 package com.example.optisol.kotlinemap.base
 
+import com.optisol.optigeofencingandroid.base.BaseView
+
 /**
  * Interface representing a View that will use to load data.
  */

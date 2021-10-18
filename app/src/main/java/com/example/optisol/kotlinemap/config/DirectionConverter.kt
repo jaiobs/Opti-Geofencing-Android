@@ -2,7 +2,7 @@ package com.example.optisol.kotlinemap.config
 
 import android.content.Context
 import android.util.DisplayMetrics
-import com.example.optisol.kotlinemap.model.Step
+import com.optisol.optigeofencingandroid.model.Step
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.PolylineOptions
 import java.util.*

@@ -3,6 +3,296 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../GoogleDirectionLibrary/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../GoogleDirectionLibrary/app/src/main/java/com/akexorcist/googledirection/sample/SimpleDirectionActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/MapActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/MapFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/OptiGeoFence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/OverallFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/apiservices/DirectionService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/app/ApiInterface.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/app/ApiUrl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/app/AppConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/app/AppController.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/AbstractBasePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/BaseActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/BaseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/BasePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/BaseView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/LoadDataView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/base/ResponseHandler.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/config/Constants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/config/DirectionConverter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/core/CustomMarker.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/core/DirectionsApi.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/core/OverAllPolyline.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/core/SampleGeoFence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/listeners/PolylineListeners.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Agency.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Bound.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Coordination.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Direction.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Fare.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/GeocodedWaypoint.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Info.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Leg.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Line.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Route.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/RoutePolyline.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Step.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/StopPoint.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/TimeInfo.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/TransitDetail.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Vehicle.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/model/Waypoint.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/polyline/PolylineActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/polyline/PolylinePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/custommarker/CustomMarkerListener.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/directions/GetDirectionsAPI.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/geo/OverallGeoFence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/polyline/DrawPolylines.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/polyline/MainPolylineClass.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/polyline/PolylineActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/ui/polyline/PolylinePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/utils/RxJavaUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/utils/TextUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/java/com/optisol/optigeofencingandroid/utils/UiUtils.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/res/layout/activity_map.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/OptiGeofencingAndroid/src/main/res/layout/activity_maps.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
           <value>
             <set />
@@ -23,12 +313,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/apiservices/DirectionService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/app/AppController.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/model/Route.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/model/Step.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/NewPolylineActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/currentlocation/CurrentLocationActivity.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/custommarker/CustomMarkerActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/optisol/kotlinemap/ui/directions/DirectionActivity.kt">
           <value>
             <set />
           </value>
@@ -373,6 +693,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_new_polyline.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_one.xml">
           <value>
             <set />
@@ -423,6 +748,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/helper/fcm/MyFirebaseMsgService.kt">
           <value>
             <set />
@@ -433,7 +763,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint1/choosetask/ChooseTaskAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint1/myrequest/MyRequestActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint1/myrequest/MyRequestAdapter.kt">
           <value>
             <set />
           </value>
@@ -443,7 +783,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint2/requestdetails/MyRequestDetailsActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint2/userdetails/UserDetailActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint3/customernotification/CustomerNotificationAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint3/notification/NotificationAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/ui/sprint3/payment/StripePaymentActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../wait4me/project/wait4me/app/src/main/java/com/wait4me/utils/CommonUtils.kt">
           <value>
             <set />
           </value>

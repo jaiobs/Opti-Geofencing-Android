@@ -3,6 +3,11 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Coordination
+import com.optisol.optigeofencingandroid.model.Info
+import com.optisol.optigeofencingandroid.model.RoutePolyline
+import com.optisol.optigeofencingandroid.model.Step
+import com.optisol.optigeofencingandroid.model.TransitDetail
 
 
 class Step : Parcelable {
@@ -69,7 +74,7 @@ class Step : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Step?> = object : Parcelable.Creator<Step?> {
             override fun createFromParcel(`in`: Parcel): Step? {
-                return Step(`in`)
+                return com.optisol.optigeofencingandroid.model.Step(`in`)
             }
 
             override fun newArray(size: Int): Array<Step?> {

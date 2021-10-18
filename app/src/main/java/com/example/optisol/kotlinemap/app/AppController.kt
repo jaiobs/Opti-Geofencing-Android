@@ -4,6 +4,9 @@ import android.app.Application
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
+import com.optisol.optigeofencingandroid.app.ApiInterface
+import com.optisol.optigeofencingandroid.app.ApiUrl
+import com.optisol.optigeofencingandroid.app.AppController
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -27,7 +30,7 @@ class AppController : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        appController = this
+//        appController = this
         gson = GsonBuilder()
             .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
             .create()

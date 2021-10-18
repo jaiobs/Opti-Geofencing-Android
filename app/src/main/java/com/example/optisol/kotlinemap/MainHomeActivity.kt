@@ -2,24 +2,21 @@ package com.example.optisol.kotlinemap
 
 import android.app.Activity
 import android.content.Intent
-import android.content.IntentSender
 import android.location.Location
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
-import com.example.optisol.kotlinemap.base.BaseActivity
+import com.optisol.optigeofencingandroid.base.BaseActivity
 import com.example.optisol.kotlinemap.helper.location.LocationHelper
 import com.example.optisol.kotlinemap.helper.location.LocationManagers
 import com.example.optisol.kotlinemap.helper.runtime.PermissionHelper
 import com.example.optisol.kotlinemap.ui.geomap.GeoActivity
-import com.example.optisol.kotlinemap.ui.currentlocation.CurrentLocationActivity
-import com.example.optisol.kotlinemap.ui.polyline.PolylineActivity
 import com.example.optisol.kotlinemap.ui.geofence.GeofenceActivity
 import com.example.optisol.kotlinemap.ui.custommarker.CustomMarkerActivity
 import com.example.optisol.kotlinemap.ui.directions.DirectionActivity
 import com.example.optisol.kotlinemap.ui.distancecalculate.DistanceCalculationActivity
-import com.example.optisol.kotlinemap.utils.UiUtils
+import com.example.optisol.kotlinemap.ui.polyline.PolylineActivity
+import com.optisol.optigeofencingandroid.utils.UiUtils
 import com.optisol.optigeofencingandroid.MapActivity
 import com.optisol.optigeofencingandroid.MapFragment
 import kotlinx.android.synthetic.main.activity_main.*

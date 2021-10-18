@@ -3,6 +3,8 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Bound
+import com.optisol.optigeofencingandroid.model.Coordination
 
 class Bound : Parcelable {
     @SerializedName("northeast")
@@ -39,7 +41,7 @@ class Bound : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Bound?> = object : Parcelable.Creator<Bound?> {
             override fun createFromParcel(`in`: Parcel): Bound? {
-                return Bound(`in`)
+                return com.optisol.optigeofencingandroid.model.Bound(`in`)
             }
 
             override fun newArray(size: Int): Array<Bound?> {

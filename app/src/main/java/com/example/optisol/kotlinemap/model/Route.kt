@@ -20,6 +20,10 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Bound
+import com.optisol.optigeofencingandroid.model.Fare
+import com.optisol.optigeofencingandroid.model.Leg
+import com.optisol.optigeofencingandroid.model.RoutePolyline
 
 /**
  * Created by Akexorcist on 11/29/15 AD.
@@ -73,7 +77,7 @@ class Route : Parcelable {
     }
 
     companion object {
-        val CREATOR: Parcelable.Creator<Route?> = object : Parcelable.Creator<Route?> {
+        @JvmField val CREATOR: Parcelable.Creator<Route?> = object : Parcelable.Creator<Route?> {
             override fun createFromParcel(`in`: Parcel): Route? {
                 return Route(`in`)
             }

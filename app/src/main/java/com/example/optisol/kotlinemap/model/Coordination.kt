@@ -4,6 +4,7 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
 import com.google.android.gms.maps.model.LatLng
+import com.optisol.optigeofencingandroid.model.Coordination
 
 
 class Coordination : Parcelable {
@@ -34,7 +35,7 @@ class Coordination : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Coordination?> = object : Parcelable.Creator<Coordination?> {
             override fun createFromParcel(`in`: Parcel): Coordination? {
-                return Coordination(`in`)
+                return com.optisol.optigeofencingandroid.model.Coordination(`in`)
             }
 
             override fun newArray(size: Int): Array<Coordination?> {

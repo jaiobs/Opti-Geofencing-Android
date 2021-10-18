@@ -7,7 +7,7 @@
     tools:context=".MapActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/mapFragment"
+        android:id="@+id/mapFragment_one"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"

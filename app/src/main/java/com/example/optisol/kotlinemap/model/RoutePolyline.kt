@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName
 import android.os.Parcel
 import com.google.android.gms.maps.model.LatLng
 import com.google.maps.android.PolyUtil
+import com.optisol.optigeofencingandroid.model.RoutePolyline
 
 class RoutePolyline : Parcelable {
     @SerializedName("points")
@@ -30,7 +31,7 @@ class RoutePolyline : Parcelable {
         val CREATOR: Parcelable.Creator<RoutePolyline?> =
             object : Parcelable.Creator<RoutePolyline?> {
                 override fun createFromParcel(`in`: Parcel): RoutePolyline? {
-                    return RoutePolyline(`in`)
+                    return com.optisol.optigeofencingandroid.model.RoutePolyline(`in`)
                 }
 
                 override fun newArray(size: Int): Array<RoutePolyline?> {

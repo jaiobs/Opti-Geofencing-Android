@@ -2,7 +2,7 @@ package com.example.optisol.kotlinemap.ui.distancecalculate
 
 import android.os.Bundle
 import com.example.optisol.kotlinemap.R
-import com.example.optisol.kotlinemap.base.BaseActivity
+import com.optisol.optigeofencingandroid.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_distance_calculation.*
 
 class DistanceCalculationActivity : BaseActivity() {

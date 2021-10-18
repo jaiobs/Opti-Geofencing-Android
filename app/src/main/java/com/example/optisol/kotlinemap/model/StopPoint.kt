@@ -3,6 +3,8 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Coordination
+import com.optisol.optigeofencingandroid.model.StopPoint
 
 
 class StopPoint : Parcelable {
@@ -30,7 +32,7 @@ class StopPoint : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<StopPoint?> = object : Parcelable.Creator<StopPoint?> {
             override fun createFromParcel(`in`: Parcel): StopPoint? {
-                return StopPoint(`in`)
+                return com.optisol.optigeofencingandroid.model.StopPoint(`in`)
             }
 
             override fun newArray(size: Int): Array<StopPoint?> {

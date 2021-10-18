@@ -1,6 +1,9 @@
 package com.example.optisol.kotlinemap.base
 
 import com.example.optisol.kotlinemap.app.AppRepo
+import com.optisol.optigeofencingandroid.base.BasePresenter
+import com.optisol.optigeofencingandroid.base.BaseView
+import com.optisol.optigeofencingandroid.base.ResponseHandler
 
 
 open class AbstractBasePresenter<in V : BaseView> : BasePresenter<V>, ResponseHandler<Any> {

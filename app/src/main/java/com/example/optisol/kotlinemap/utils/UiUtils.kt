@@ -11,6 +11,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.optisol.kotlinemap.R
 import com.google.android.material.snackbar.Snackbar
+import com.optisol.optigeofencingandroid.utils.TextUtils
 
 
 object UiUtils {

@@ -4,6 +4,9 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
 import com.example.optisol.kotlinemap.config.RequestResult
+import com.optisol.optigeofencingandroid.model.Direction
+import com.optisol.optigeofencingandroid.model.GeocodedWaypoint
+import com.optisol.optigeofencingandroid.model.Route
 
 
 class Direction : Parcelable {
@@ -40,7 +43,7 @@ class Direction : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Direction?> = object : Parcelable.Creator<Direction?> {
             override fun createFromParcel(`in`: Parcel): Direction? {
-                return Direction(`in`)
+                return com.optisol.optigeofencingandroid.model.Direction(`in`)
             }
 
             override fun newArray(size: Int): Array<Direction?> {

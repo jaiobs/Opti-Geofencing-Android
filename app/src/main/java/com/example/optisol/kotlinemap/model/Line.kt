@@ -3,11 +3,13 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Line
+import com.optisol.optigeofencingandroid.model.Vehicle
 
 
 class Line : Parcelable {
     @SerializedName("agencies")
-    var agencyList: List<Agency>? = null
+    var agencyList: List<com.optisol.optigeofencingandroid.model.Agency>? = null
 
     @SerializedName("color")
     var color: String? = null
@@ -26,7 +28,7 @@ class Line : Parcelable {
 
     constructor() {}
     protected constructor(`in`: Parcel) {
-        agencyList = `in`.createTypedArrayList(Agency.CREATOR) as ArrayList<Agency>
+        agencyList = `in`.createTypedArrayList(Agency.CREATOR) as ArrayList<com.optisol.optigeofencingandroid.model.Agency>
         color = `in`.readString()
         name = `in`.readString()
         shortName = `in`.readString()
@@ -48,7 +50,7 @@ class Line : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Line?> = object : Parcelable.Creator<Line?> {
             override fun createFromParcel(`in`: Parcel): Line? {
-                return Line(`in`)
+                return com.optisol.optigeofencingandroid.model.Line(`in`)
             }
 
             override fun newArray(size: Int): Array<Line?> {

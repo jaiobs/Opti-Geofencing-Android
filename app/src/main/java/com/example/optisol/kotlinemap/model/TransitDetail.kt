@@ -3,6 +3,10 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Line
+import com.optisol.optigeofencingandroid.model.StopPoint
+import com.optisol.optigeofencingandroid.model.TimeInfo
+import com.optisol.optigeofencingandroid.model.TransitDetail
 
 
 class TransitDetail : Parcelable {
@@ -56,7 +60,7 @@ class TransitDetail : Parcelable {
         val CREATOR: Parcelable.Creator<TransitDetail?> =
             object : Parcelable.Creator<TransitDetail?> {
                 override fun createFromParcel(`in`: Parcel): TransitDetail? {
-                    return TransitDetail(`in`)
+                    return com.optisol.optigeofencingandroid.model.TransitDetail(`in`)
                 }
 
                 override fun newArray(size: Int): Array<TransitDetail?> {

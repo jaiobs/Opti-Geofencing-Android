@@ -3,6 +3,7 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Fare
 
 class Fare : Parcelable {
     @SerializedName("currency")
@@ -34,7 +35,7 @@ class Fare : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Fare?> = object : Parcelable.Creator<Fare?> {
             override fun createFromParcel(`in`: Parcel): Fare? {
-                return Fare(`in`)
+                return com.optisol.optigeofencingandroid.model.Fare(`in`)
             }
 
             override fun newArray(size: Int): Array<Fare?> {

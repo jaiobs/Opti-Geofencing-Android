@@ -3,6 +3,7 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.TimeInfo
 
 
 class TimeInfo : Parcelable {
@@ -35,7 +36,7 @@ class TimeInfo : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<TimeInfo?> = object : Parcelable.Creator<TimeInfo?> {
             override fun createFromParcel(`in`: Parcel): TimeInfo? {
-                return TimeInfo(`in`)
+                return com.optisol.optigeofencingandroid.model.TimeInfo(`in`)
             }
 
             override fun newArray(size: Int): Array<TimeInfo?> {

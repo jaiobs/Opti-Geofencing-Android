@@ -1,8 +1,13 @@
 package com.example.optisol.kotlinemap.model
 
-import com.example.optisol.kotlinemap.config.DirectionConverter
+import com.optisol.optigeofencingandroid.config.DirectionConverter
 import com.google.gson.annotations.SerializedName
 import com.google.android.gms.maps.model.LatLng
+import com.optisol.optigeofencingandroid.model.Coordination
+import com.optisol.optigeofencingandroid.model.Info
+import com.optisol.optigeofencingandroid.model.Step
+import com.optisol.optigeofencingandroid.model.TimeInfo
+import com.optisol.optigeofencingandroid.model.Waypoint
 import java.util.ArrayList
 
 

@@ -1,7 +1,6 @@
 package com.optisol.optigeofencingandroid
 
 import android.Manifest
-import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +34,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.mapFragment) as SupportMapFragment?
+                .findFragmentById(R.id.mapFragment_one) as SupportMapFragment?
         mapFragment?.getMapAsync(this)
 
     }
@@ -44,7 +43,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return
         }
-        googleMap?.clear()
+//        googleMap?.clear()
         googleMap?.isMyLocationEnabled = true
         this.googleMap = googleMap!!
         startLocationMonitor()

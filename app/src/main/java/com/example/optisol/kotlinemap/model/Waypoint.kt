@@ -3,6 +3,8 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Coordination
+import com.optisol.optigeofencingandroid.model.Waypoint
 
 
 class Waypoint : Parcelable {
@@ -35,7 +37,7 @@ class Waypoint : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Waypoint?> = object : Parcelable.Creator<Waypoint?> {
             override fun createFromParcel(`in`: Parcel): Waypoint? {
-                return Waypoint(`in`)
+                return com.optisol.optigeofencingandroid.model.Waypoint(`in`)
             }
 
             override fun newArray(size: Int): Array<Waypoint?> {

@@ -3,6 +3,7 @@ package com.example.optisol.kotlinemap.model
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import android.os.Parcel
+import com.optisol.optigeofencingandroid.model.Vehicle
 
 class Vehicle : Parcelable {
     @SerializedName("icon")
@@ -34,7 +35,7 @@ class Vehicle : Parcelable {
     companion object {
         val CREATOR: Parcelable.Creator<Vehicle?> = object : Parcelable.Creator<Vehicle?> {
             override fun createFromParcel(`in`: Parcel): Vehicle? {
-                return Vehicle(`in`)
+                return com.optisol.optigeofencingandroid.model.Vehicle(`in`)
             }
 
             override fun newArray(size: Int): Array<Vehicle?> {

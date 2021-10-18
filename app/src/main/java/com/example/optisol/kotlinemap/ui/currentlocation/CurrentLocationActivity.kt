@@ -9,7 +9,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.example.optisol.kotlinemap.base.BaseActivity
+import com.optisol.optigeofencingandroid.base.BaseActivity
 import com.example.optisol.kotlinemap.R
 import com.google.android.gms.location.GeofencingClient
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -32,7 +32,6 @@ class CurrentLocationActivity : BaseActivity(), OnMapReadyCallback {
         LocationManagerImpl()
     private var latLng: LatLng? = null
     lateinit var geofencingClient: GeofencingClient
-    @SuppressLint("MissingPermission")
     override fun onCreate(savedInstance: Bundle?) {
         super.onCreate(savedInstance)
         setContentView(R.layout.activity_current_location)
@@ -72,7 +71,7 @@ class CurrentLocationActivity : BaseActivity(), OnMapReadyCallback {
             return
         }
         mMap!!.clear()
-        mMap!!.setMyLocationEnabled(true)
+        mMap!!.isMyLocationEnabled = true
         this.mMap = mMap
         startLocationMonitor()
     }
