@@ -38,9 +38,9 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
     }
 
     private fun initView() {
-        btn_current_location.setOnClickListener(this)
+//        btn_current_location.setOnClickListener(this)
         btn_custom_marker.setOnClickListener(this)
-        btn_geo_fencing.setOnClickListener(this)
+//        btn_geo_fencing.setOnClickListener(this)
         btn_polyline.setOnClickListener(this)
         btn_multi_marker.setOnClickListener(this)
         btn_distance_calculate.setOnClickListener(this)
@@ -49,18 +49,18 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.btn_current_location -> {
-                val intent = Intent(this, MapActivity::class.java)
-                startActivity(intent)
-            }
+//            R.id.btn_current_location -> {
+//                val intent = Intent(this, MapActivity::class.java)
+//                startActivity(intent)
+//            }
             R.id.btn_custom_marker -> {
                 val intent = Intent(this, CustomMarkerActivity::class.java)
                 startActivity(intent)
             }
-            R.id.btn_geo_fencing -> {
-                val intent = Intent(this, GeofenceActivity::class.java)
-                startActivity(intent)
-            }
+//            R.id.btn_geo_fencing -> {
+//                val intent = Intent(this, GeofenceActivity::class.java)
+//                startActivity(intent)
+//            }
             R.id.btn_polyline -> {
                 val intent = Intent(this, PolylineActivity::class.java)
                 startActivity(intent)
