@@ -52,7 +52,6 @@
         <activity android:name=".ui.custommarker.CustomMarkerActivity" />
         <activity android:name=".ui.geofence.GeofenceActivity" />
         <activity android:name=".ui.four.PolylineActivity" />
-        <activity android:name="com.optisol.optigeofencingandroid.MapActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

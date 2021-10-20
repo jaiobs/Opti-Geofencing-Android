@@ -11,14 +11,11 @@ import com.example.optisol.kotlinemap.helper.location.LocationHelper
 import com.example.optisol.kotlinemap.helper.location.LocationManagers
 import com.example.optisol.kotlinemap.helper.runtime.PermissionHelper
 import com.example.optisol.kotlinemap.ui.geomap.GeoActivity
-import com.example.optisol.kotlinemap.ui.geofence.GeofenceActivity
 import com.example.optisol.kotlinemap.ui.custommarker.CustomMarkerActivity
 import com.example.optisol.kotlinemap.ui.directions.DirectionActivity
 import com.example.optisol.kotlinemap.ui.distancecalculate.DistanceCalculationActivity
 import com.example.optisol.kotlinemap.ui.polyline.PolylineActivity
 import com.optisol.optigeofencingandroid.utils.UiUtils
-import com.optisol.optigeofencingandroid.MapActivity
-import com.optisol.optigeofencingandroid.MapFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
@@ -26,7 +23,6 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
     private var locationHelper: LocationHelper? = null
     private var permissionHelper: PermissionHelper? = null
     private val REQUEST_CHECK_SETTINGS = 1
-    private lateinit var mapFragment: MapFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -73,8 +69,8 @@ class MainHomeActivity : BaseActivity(), View.OnClickListener, LocationManagers,
                 val intent = Intent(this, DistanceCalculationActivity::class.java)
                 startActivity(intent)
             }
-            R.id.btn_direction ->{
-                val intent = Intent(this,DirectionActivity::class.java)
+            R.id.btn_direction -> {
+                val intent = Intent(this, DirectionActivity::class.java)
                 startActivity(intent)
             }
         }
