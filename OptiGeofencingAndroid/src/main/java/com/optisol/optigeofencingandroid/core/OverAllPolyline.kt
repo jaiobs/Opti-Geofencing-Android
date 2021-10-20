@@ -16,8 +16,8 @@ import java.util.ArrayList
 
 class OverAllPolyline() : DrawPolylines {
 
-    private lateinit var mMap: GoogleMap
-    private val routesItems = ArrayList<LatLng>()
+    private lateinit var mMapp: GoogleMap
+    private var routesItems = ArrayList<LatLng>()
     private val kDegreesToRadians = Math.PI / 180.0
     private val kRadiansToDegrees = 180.0 / Math.PI
 
@@ -27,7 +27,8 @@ class OverAllPolyline() : DrawPolylines {
         mList: ArrayList<LatLng>,
         mMap: GoogleMap
     ) {
-        this.mMap = mMap
+        routesItems = mList
+        this.mMapp = mMap
         val evaluator = TypeEvaluator<LatLng> { fraction, startValue: LatLng, endValue ->
             val angle = getAngle(startValue, endValue)
             m!!.rotation = angle.toFloat()
@@ -60,7 +61,7 @@ class OverAllPolyline() : DrawPolylines {
         lineOptions.addAll(routesItems)
         lineOptions.width(10f)
         lineOptions.color(Color.RED)
-        mMap.addPolyline(lineOptions)
+        mMapp.addPolyline(lineOptions)
     }
 
     override fun getAngle(curretLatLng: LatLng, toLatLng: LatLng?): Double {
